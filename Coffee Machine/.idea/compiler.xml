@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Coffee_Machine-task_main" target="1.8" />
+      <module name="Coffee_Machine-task_test" target="1.8" />
+      <module name="Problems-Bank_account_main" target="1.8" />
+      <module name="Problems-Bank_account_test" target="1.8" />
+      <module name="Problems-Check_the_value_main" target="1.8" />
+      <module name="Problems-Check_the_value_test" target="1.8" />
+      <module name="Problems-Collatz_conjecture_main" target="1.8" />
+      <module name="Problems-Collatz_conjecture_test" target="1.8" />
+      <module name="Problems-Companion_main" target="1.8" />
+      <module name="Problems-Companion_test" target="1.8" />
+      <module name="Problems-Complex_numbers_main" target="1.8" />
+      <module name="Problems-Complex_numbers_test" target="1.8" />
+      <module name="Problems-Composition_main" target="1.8" />
+      <module name="Problems-Composition_test" target="1.8" />
+      <module name="Problems-Currencies_main" target="1.8" />
+      <module name="Problems-Currencies_test" target="1.8" />
+      <module name="Problems-Fix_the_program_main" target="1.8" />
+      <module name="Problems-Fix_the_program_test" target="1.8" />
+      <module name="Problems-From_0_to_9_main" target="1.8" />
+      <module name="Problems-From_0_to_9_test" target="1.8" />
+      <module name="Problems-Hello,_Kotlin_main" target="1.8" />
+      <module name="Problems-Hello,_Kotlin_test" target="1.8" />
+      <module name="Problems-Job_main" target="1.8" />
+      <module name="Problems-Job_test" target="1.8" />
+      <module name="Problems-Number_squared_main" target="1.8" />
+      <module name="Problems-Number_squared_test" target="1.8" />
+      <module name="Problems-Odd_or_even_main" target="1.8" />
+      <module name="Problems-Odd_or_even_test" target="1.8" />
+      <module name="Problems-Patient_needs_a_doctor_main" target="1.8" />
+      <module name="Problems-Patient_needs_a_doctor_test" target="1.8" />
+      <module name="Problems-Point2D_main" target="1.8" />
+      <module name="Problems-Point2D_test" target="1.8" />
+      <module name="Problems-Print_a_string_exactly_ten_times_main" target="1.8" />
+      <module name="Problems-Print_a_string_exactly_ten_times_test" target="1.8" />
+      <module name="Problems-Print_two_numbers_on_the_same_line_main" target="1.8" />
+      <module name="Problems-Print_two_numbers_on_the_same_line_test" target="1.8" />
+      <module name="Problems-Pseudo-constructor_main" target="1.8" />
+      <module name="Problems-Pseudo-constructor_test" target="1.8" />
+      <module name="Problems-Reddit_main" target="1.8" />
+      <module name="Problems-Reddit_test" target="1.8" />
+      <module name="Problems-Swap_main" target="1.8" />
+      <module name="Problems-Swap_test" target="1.8" />
+      <module name="Problems-The_first_position_of_the_largest_element_main" target="1.8" />
+      <module name="Problems-The_first_position_of_the_largest_element_test" target="1.8" />
+      <module name="Problems-The_last_digit_of_a_number_main" target="1.8" />
+      <module name="Problems-The_last_digit_of_a_number_test" target="1.8" />
+      <module name="Problems-The_sum_of_elements_main" target="1.8" />
+      <module name="Problems-The_sum_of_elements_test" target="1.8" />
+      <module name="Problems-val_or_var_main" target="1.8" />
+      <module name="Problems-val_or_var_test" target="1.8" />
+      <module name="Problems-Very_Big_Number_main" target="1.8" />
+      <module name="Problems-Very_Big_Number_test" target="1.8" />
+      <module name="Problems-Your_name_main" target="1.8" />
+      <module name="Problems-Your_name_test" target="1.8" />
+      <module name="util_main" target="1.8" />
+      <module name="util_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

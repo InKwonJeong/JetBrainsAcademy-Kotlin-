@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Coffee Machine/task" />
+            <option value="$PROJECT_DIR$/Problems/Bank account" />
+            <option value="$PROJECT_DIR$/Problems/Check the value" />
+            <option value="$PROJECT_DIR$/Problems/Collatz conjecture" />
+            <option value="$PROJECT_DIR$/Problems/Companion" />
+            <option value="$PROJECT_DIR$/Problems/Complex numbers" />
+            <option value="$PROJECT_DIR$/Problems/Composition" />
+            <option value="$PROJECT_DIR$/Problems/Currencies" />
+            <option value="$PROJECT_DIR$/Problems/Fix the program" />
+            <option value="$PROJECT_DIR$/Problems/From 0 to 9" />
+            <option value="$PROJECT_DIR$/Problems/Hello, Kotlin" />
+            <option value="$PROJECT_DIR$/Problems/Job" />
+            <option value="$PROJECT_DIR$/Problems/Number squared" />
+            <option value="$PROJECT_DIR$/Problems/Odd or even" />
+            <option value="$PROJECT_DIR$/Problems/Patient needs a doctor" />
+            <option value="$PROJECT_DIR$/Problems/Point2D" />
+            <option value="$PROJECT_DIR$/Problems/Print a string exactly ten times" />
+            <option value="$PROJECT_DIR$/Problems/Print two numbers on the same line" />
+            <option value="$PROJECT_DIR$/Problems/Pseudo-constructor" />
+            <option value="$PROJECT_DIR$/Problems/Reddit" />
+            <option value="$PROJECT_DIR$/Problems/Swap" />
+            <option value="$PROJECT_DIR$/Problems/The first position of the largest element" />
+            <option value="$PROJECT_DIR$/Problems/The last digit of a number" />
+            <option value="$PROJECT_DIR$/Problems/The sum of elements" />
+            <option value="$PROJECT_DIR$/Problems/Very Big Number" />
+            <option value="$PROJECT_DIR$/Problems/Your name" />
+            <option value="$PROJECT_DIR$/Problems/val or var" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
