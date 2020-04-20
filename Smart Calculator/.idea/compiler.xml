@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Problems-Case_insensitive_main" target="1.8" />
+      <module name="Problems-Case_insensitive_test" target="1.8" />
+      <module name="Problems-Cause_an_exception_main" target="1.8" />
+      <module name="Problems-Cause_an_exception_test" target="1.8" />
+      <module name="Problems-Count_the_numbers_main" target="1.8" />
+      <module name="Problems-Count_the_numbers_test" target="1.8" />
+      <module name="Problems-Counting_main" target="1.8" />
+      <module name="Problems-Counting_test" target="1.8" />
+      <module name="Problems-Cutting_the_fraction_main" target="1.8" />
+      <module name="Problems-Cutting_the_fraction_test" target="1.8" />
+      <module name="Problems-Cyclically_shifting_elements_main" target="1.8" />
+      <module name="Problems-Cyclically_shifting_elements_test" target="1.8" />
+      <module name="Problems-Handle_arithmetic_exception_main" target="1.8" />
+      <module name="Problems-Handle_arithmetic_exception_test" target="1.8" />
+      <module name="Problems-Handle_number_format_exception_main" target="1.8" />
+      <module name="Problems-Handle_number_format_exception_test" target="1.8" />
+      <module name="Problems-Handle_string_exception_main" target="1.8" />
+      <module name="Problems-Handle_string_exception_test" target="1.8" />
+      <module name="Problems-Initializing_an_array_main" target="1.8" />
+      <module name="Problems-Initializing_an_array_of_integers_main" target="1.8" />
+      <module name="Problems-Initializing_an_array_of_integers_test" target="1.8" />
+      <module name="Problems-Initializing_an_array_of_longs_main" target="1.8" />
+      <module name="Problems-Initializing_an_array_of_longs_test" target="1.8" />
+      <module name="Problems-Initializing_an_array_test" target="1.8" />
+      <module name="Problems-Is_it_here_main" target="1.8" />
+      <module name="Problems-Is_it_here_test" target="1.8" />
+      <module name="Problems-Letters_main" target="1.8" />
+      <module name="Problems-Letters_test" target="1.8" />
+      <module name="Problems-Matching_main" target="1.8" />
+      <module name="Problems-Matching_test" target="1.8" />
+      <module name="Problems-Most_common_main" target="1.8" />
+      <module name="Problems-Most_common_test" target="1.8" />
+      <module name="Problems-National_assembly_main" target="1.8" />
+      <module name="Problems-National_assembly_test" target="1.8" />
+      <module name="Problems-Palindrome_main" target="1.8" />
+      <module name="Problems-Palindrome_test" target="1.8" />
+      <module name="Problems-Percentage_main" target="1.8" />
+      <module name="Problems-Percentage_test" target="1.8" />
+      <module name="Problems-Playing_with_time_main" target="1.8" />
+      <module name="Problems-Playing_with_time_test" target="1.8" />
+      <module name="Problems-Simple_expression_main" target="1.8" />
+      <module name="Problems-Simple_expression_test" target="1.8" />
+      <module name="Problems-Size,_min_and_max_main" target="1.8" />
+      <module name="Problems-Size,_min_and_max_test" target="1.8" />
+      <module name="Problems-The_longest_word_main" target="1.8" />
+      <module name="Problems-The_longest_word_test" target="1.8" />
+      <module name="Problems-The_lucky_ticket_main" target="1.8" />
+      <module name="Problems-The_lucky_ticket_test" target="1.8" />
+      <module name="Problems-The_product_of_numbers_from_a_to_b_main" target="1.8" />
+      <module name="Problems-The_product_of_numbers_from_a_to_b_test" target="1.8" />
+      <module name="Problems-The_sum_of_integers_from_a_to_b_main" target="1.8" />
+      <module name="Problems-The_sum_of_integers_from_a_to_b_test" target="1.8" />
+      <module name="Smart_Calculator-task_main" target="1.8" />
+      <module name="Smart_Calculator-task_test" target="1.8" />
+      <module name="util_main" target="1.8" />
+      <module name="util_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
