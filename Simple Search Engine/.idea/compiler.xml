@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Problems-A_small_version_of_the_Battleship_game_main" target="1.8" />
+      <module name="Problems-A_small_version_of_the_Battleship_game_test" target="1.8" />
+      <module name="Problems-Application_as_a_class_main" target="1.8" />
+      <module name="Problems-Application_as_a_class_test" target="1.8" />
+      <module name="Problems-Board_game_basics__Game_main" target="1.8" />
+      <module name="Problems-Board_game_basics__Game_test" target="1.8" />
+      <module name="Problems-Board_game_basics__Player_main" target="1.8" />
+      <module name="Problems-Board_game_basics__Player_test" target="1.8" />
+      <module name="Problems-Cities_comparison_main" target="1.8" />
+      <module name="Problems-Cities_comparison_test" target="1.8" />
+      <module name="Problems-Currency_comparision_main" target="1.8" />
+      <module name="Problems-Currency_comparision_test" target="1.8" />
+      <module name="Problems-Danger_level_main" target="1.8" />
+      <module name="Problems-Danger_level_test" target="1.8" />
+      <module name="Problems-First_digit_main" target="1.8" />
+      <module name="Problems-First_digit_test" target="1.8" />
+      <module name="Problems-First_predicate_main" target="1.8" />
+      <module name="Problems-First_predicate_test" target="1.8" />
+      <module name="Problems-Function_composition_main" target="1.8" />
+      <module name="Problems-Function_composition_test" target="1.8" />
+      <module name="Problems-Function_generator_main" target="1.8" />
+      <module name="Problems-Function_generator_test" target="1.8" />
+      <module name="Problems-Max_main" target="1.8" />
+      <module name="Problems-Max_test" target="1.8" />
+      <module name="Problems-Not__predicate_main" target="1.8" />
+      <module name="Problems-Not__predicate_test" target="1.8" />
+      <module name="Problems-Printing_only_the_longest_line_main" target="1.8" />
+      <module name="Problems-Printing_only_the_longest_line_test" target="1.8" />
+      <module name="Problems-The_forgotten_comments_main" target="1.8" />
+      <module name="Problems-The_forgotten_comments_test" target="1.8" />
+      <module name="Problems-Unique_characters_main" target="1.8" />
+      <module name="Problems-Unique_characters_test" target="1.8" />
+      <module name="Problems-Volume_of_a_cube_main" target="1.8" />
+      <module name="Problems-Volume_of_a_cube_test" target="1.8" />
+      <module name="Simple_Search_Engine-task_main" target="1.8" />
+      <module name="Simple_Search_Engine-task_test" target="1.8" />
+      <module name="util_main" target="1.8" />
+      <module name="util_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
