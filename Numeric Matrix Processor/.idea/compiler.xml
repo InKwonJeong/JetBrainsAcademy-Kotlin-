@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Numeric_Matrix_Processor-task_main" target="1.8" />
+      <module name="Numeric_Matrix_Processor-task_test" target="1.8" />
+      <module name="Problems-Area_of_a_circle_main" target="1.8" />
+      <module name="Problems-Area_of_a_circle_test" target="1.8" />
+      <module name="Problems-Celsius_to_Fahrenheit_main" target="1.8" />
+      <module name="Problems-Celsius_to_Fahrenheit_test" target="1.8" />
+      <module name="Problems-copy___usage_main" target="1.8" />
+      <module name="Problems-copy___usage_test" target="1.8" />
+      <module name="Problems-Fractional_part_main" target="1.8" />
+      <module name="Problems-Fractional_part_test" target="1.8" />
+      <module name="Problems-House_inheritance_main" target="1.8" />
+      <module name="Problems-House_inheritance_test" target="1.8" />
+      <module name="Problems-Liquid_pressure_main" target="1.8" />
+      <module name="Problems-Liquid_pressure_test" target="1.8" />
+      <module name="Problems-Quadratic_equation_main" target="1.8" />
+      <module name="Problems-Quadratic_equation_test" target="1.8" />
+      <module name="Problems-Sine_and_cosine_main" target="1.8" />
+      <module name="Problems-Sine_and_cosine_test" target="1.8" />
+      <module name="Problems-toString___modification_main" target="1.8" />
+      <module name="Problems-toString___modification_test" target="1.8" />
+      <module name="util_main" target="1.8" />
+      <module name="util_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
