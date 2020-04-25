@@ -1,0 +1,201 @@
+type: edu
+custom_name: stage2
+files:
+- name: test/PhoneBookTest.java
+  visible: false
+  text: |
+    import org.hyperskill.hstest.v6.stage.BaseStageTest;
+    import org.hyperskill.hstest.v6.testcase.CheckResult;
+    import org.hyperskill.hstest.v6.testcase.TestCase;
+    import phonebook.MainKt;
+
+    import java.util.Arrays;
+    import java.util.List;
+
+    public class PhoneBookTest extends BaseStageTest {
+        public PhoneBookTest() {
+            super(MainKt.class);
+        }
+
+        @Override
+        public List<TestCase> generate() {
+            return Arrays.asList(
+                new TestCase().setTimeLimit(30 * 60 * 1000)
+            );
+        }
+
+        @Override
+        public CheckResult check(String reply, Object clue) {
+            reply = reply.toLowerCase();
+            return new CheckResult(
+                reply.contains("start searching")
+                    && reply.contains("found")
+                    && reply.contains("min.")
+                    && reply.contains("sec.")
+                    && reply.contains("ms.")
+                    && reply.contains("sorting time")
+                    && reply.contains("searching time")
+                    && reply.contains("linear search")
+                    && reply.contains("bubble sort")
+                    && reply.contains("jump search"));
+        }
+    }
+  learner_created: false
+- name: src/phonebook/Main.kt
+  visible: true
+  text: |
+    package phonebook
+
+    import java.io.File
+    import kotlin.math.sqrt
+
+    private const val FILE_PATH = "C:\\Users\\wjd03\\Documents\\JetBrainsAcademy-Kotlin-\\File\\"
+
+    private lateinit var phoneBook: Array<Contact>
+    private lateinit var listedName: List<String>
+
+    private lateinit var linearSearchTime: ProcessTime
+    private lateinit var bubbleSortTime: ProcessTime
+    private lateinit var jumpSearchTime: ProcessTime
+
+    data class Contact(
+            val phoneNumber: String,
+            val name: String
+    )
+
+    class ProcessTime(val time: Long) {
+        val minute = (time / 1000) / 60
+        val second = (time / 1000) % 60
+        val millisecond = time % 1000
+
+        override fun toString(): String {
+            return "$minute min. $second sec. $millisecond ms."
+        }
+    }
+
+    operator fun ProcessTime.plus(other: ProcessTime): ProcessTime {
+        return ProcessTime(time + other.time)
+    }
+
+    fun main() {
+        val phoneBookFile = File(FILE_PATH + "directory.txt")
+        val listedNameFile = File(FILE_PATH + "find.txt")
+
+        phoneBook = phoneBookFile.readLines().map {
+            val list = it.split("\\s".toRegex(), 2)
+            Contact(list[0], list[1])
+        }.toTypedArray()
+
+        listedName = listedNameFile.readLines()
+
+        linearSearch()
+        println()
+        bubbleSortAndJumpSearch()
+    }
+
+    fun processTime(block: () -> Unit): ProcessTime {
+        val startTime = System.currentTimeMillis()
+        block()
+        val endTime = System.currentTimeMillis()
+        return ProcessTime(endTime - startTime)
+    }
+
+    fun linearSearch() {
+        println("Start searching (linear search)...")
+
+        var count = 0
+        linearSearchTime = processTime {
+            for(name in listedName) {
+                for(contact in phoneBook) {
+                    if(contact.name == name) {
+                        count++
+                        break
+                    }
+                }
+            }
+        }
+
+        println("Found $count / ${listedName.size} entries. Time taken: $linearSearchTime")
+    }
+
+    fun bubbleSortAndJumpSearch() {
+        println("Start searching (bubble sort + jump search)...")
+
+        var sortDone = true
+        bubbleSortTime = processTime {
+            val startTime = System.currentTimeMillis()
+            var endTime = System.currentTimeMillis()
+            for(i in phoneBook.lastIndex downTo 0) {
+                if(linearSearchTime.time * 10 <= endTime - startTime) {
+                    sortDone = false
+                    break
+                }
+
+                for(j in 0 until i) {
+                    if(phoneBook[j].name > phoneBook[j + 1].name) {
+                        val temp = phoneBook[j]
+                        phoneBook[j] = phoneBook[j + 1]
+                        phoneBook[j + 1] = temp
+                    }
+                }
+                endTime = System.currentTimeMillis()
+            }
+        }
+
+        if(sortDone) {
+            var count = 0
+            jumpSearchTime = processTime {
+                val block = sqrt(phoneBook.size.toDouble()).toInt()
+                for (name in listedName) {
+                    var prev = -1
+                    var searchDone = false
+                    for (index in phoneBook.indices step block) {
+                        if (phoneBook[index].name >= name) {
+                            for (i in index downTo prev + 1) {
+                                if (phoneBook[i].name == name) {
+                                    count++
+                                    searchDone = true
+                                    break
+                                }
+                            }
+                            break
+                        }
+                        prev = index
+                    }
+
+                    if (!searchDone && prev != phoneBook.lastIndex) {
+                        for (i in phoneBook.lastIndex downTo prev + 1) {
+                            if (phoneBook[i].name == name) {
+                                count++
+                                break
+                            }
+                        }
+                    }
+                }
+            }
+
+            println("Found $count / ${listedName.size} entries. Time taken: ${bubbleSortTime + jumpSearchTime}")
+            println("Sorting time: $bubbleSortTime")
+            println("Searching time: $jumpSearchTime")
+        } else {
+            var count = 0
+            linearSearchTime = processTime {
+                for(name in listedName) {
+                    for(contact in phoneBook) {
+                        if(contact.name == name) {
+                            count++
+                            break
+                        }
+                    }
+                }
+            }
+
+            println("Found $count / ${listedName.size} entries. Time taken: ${bubbleSortTime + linearSearchTime}")
+            println("Sorting time: $bubbleSortTime - STOPPED, moved to linear search")
+            println("Searching time: $linearSearchTime")
+        }
+    }
+  learner_created: true
+feedback_link: https://hyperskill.org/projects/86/stages/477/implement
+status: Solved
+record: 2
